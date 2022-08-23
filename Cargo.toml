@@ -1,5 +1,5 @@
 [package]
-name = "snazzy"
+name = "rust-protobuf-serde-demo"
 version = "0.1.0"
 edition = "2021"
 

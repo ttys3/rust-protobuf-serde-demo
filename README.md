@@ -1,9 +1,8 @@
-# protobuf tut
-
-## startup
+# rust-protobuf-serde-demo
+## prepare
 
 ```shell
-cargo new snazzy && cd snazzy
+cargo new rust-protobuf-serde-demo && cd rust-protobuf-serde-demo
 
 cargo add bytes
 cargo add prost
@@ -12,6 +11,12 @@ cargo add serde_json
 cargo add serde --default-features -F derive -F serde_derive
 
 cargo add --build prost-build
+```
+
+## Run
+
+```shell
+cargo run
 ```
 
 ## Refs
